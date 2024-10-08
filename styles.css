@@ -1,0 +1,87 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos del contenedor principal */
+.instagram-post {
+    width: 400px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Cabecera del post */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.post-header-left{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 3px;
+}
+
+.post-user-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.usuario {
+    font-size: 13px;
+    color: #8e8e8e;
+}
+.rotate-icon {
+    transform: rotate(90deg);
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Sección de body */
+.post-body {
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.likes {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 12px;
+}
+
+.description p {
+    margin-top: 5px;
+    line-height: 1.2;
+}
